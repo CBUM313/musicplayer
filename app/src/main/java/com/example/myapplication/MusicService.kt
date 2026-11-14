@@ -11,7 +11,7 @@ class MusicService : Service() {
 
     override fun onCreate() {
         super.onCreate()
-        // اتصال به فایل music.mp3 داخل پوشه raw
+
         mediaPlayer = MediaPlayer.create(this, R.raw.music)
         mediaPlayer?.isLooping = true
     }

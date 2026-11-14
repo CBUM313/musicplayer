@@ -1,4 +1,4 @@
-package com.example.myapplication // ⚠️ مطابق خط اول MainActivity.kt خودتان تنظیم کنید
+package com.example.myapplication
 
 import android.content.BroadcastReceiver
 import android.content.Context
